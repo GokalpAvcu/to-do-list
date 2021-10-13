@@ -19,7 +19,7 @@ addToDoButton.addEventListener("click", function(){
    });
 
    clearToDo.addEventListener("click",function(){
-        paragraph.style.display = "none";
+        paragraph.remove();
    })
 
 })
